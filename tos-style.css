@@ -1,0 +1,123 @@
+.tos-section {
+    padding: 80px 0;
+    background: #fefefe;
+    min-height: 70vh;
+}
+
+.tos-section h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #1a1a1a;
+    text-align: center;
+    transform: rotate(-0.4deg);
+}
+
+.tos-content {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.last-updated {
+    text-align: center;
+    font-size: 14px;
+    color: #4a4a4a;
+    margin-bottom: 50px;
+    font-style: italic;
+}
+
+.tos-block {
+    margin-bottom: 40px;
+    padding: 28px;
+    background: #f8f8f8;
+    border: 2.5px solid #1a1a1a;
+}
+
+.tos-block:nth-child(odd) {
+    transform: rotate(-0.3deg);
+}
+
+.tos-block:nth-child(even) {
+    transform: rotate(0.4deg);
+}
+
+.tos-block h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 15px;
+}
+
+.tos-block p {
+    font-size: 16px;
+    color: #4a4a4a;
+    line-height: 1.7;
+    margin-bottom: 12px;
+}
+
+.tos-block p:last-child {
+    margin-bottom: 0;
+}
+
+.tos-block ul,
+.tos-block ol {
+    margin-left: 25px;
+    margin-bottom: 12px;
+}
+
+.tos-block li {
+    font-size: 16px;
+    color: #4a4a4a;
+    line-height: 1.7;
+    margin-bottom: 8px;
+}
+
+.tos-block h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-top: 25px;
+    margin-bottom: 12px;
+}
+
+.agree-section {
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 30px;
+}
+
+.agree-btn {
+    display: inline-block;
+    background: #1a1a1a;
+    color: #fefefe;
+    padding: 16px 32px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    border: 2.5px solid #1a1a1a;
+    transform: rotate(-0.5deg);
+    transition: all 0.2s;
+}
+
+.agree-btn:hover {
+    background: #fefefe;
+    color: #1a1a1a;
+    transform: rotate(-0.5deg) translate(2px, 2px);
+    box-shadow: -4px -4px 0 #1a1a1a;
+}
+
+@media (max-width: 768px) {
+    .tos-section h1 {
+        font-size: 36px;
+    }
+
+    .tos-block {
+        padding: 20px;
+        transform: rotate(0deg) !important;
+    }
+
+    .tos-block h2 {
+        font-size: 20px;
+    }
+}
